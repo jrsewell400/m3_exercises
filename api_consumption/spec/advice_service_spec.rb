@@ -1,4 +1,8 @@
 require './spec/spec_helper'
+require 'faraday'
+require 'advice_service'
+require 'json'
+require 'pry'
 
 describe AdviceService do
   before(:each) do

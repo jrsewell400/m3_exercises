@@ -1,9 +1,14 @@
 require 'spec_helper'
+require 'faraday'
+require 'chuck_service'
+require 'json'
+require 'pry'
 
 describe ChuckService do
   before(:each) do
     @c = ChuckService.new
   end
+  
   it 'exists' do
     expect(@c).to be_a(ChuckService)
   end

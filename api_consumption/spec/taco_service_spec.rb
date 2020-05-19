@@ -1,4 +1,8 @@
 require './spec/spec_helper'
+require 'faraday'
+require 'taco_service'
+require 'json'
+require 'pry'
 
 describe TacoService do
   before(:each) do
